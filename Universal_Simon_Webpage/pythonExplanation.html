@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<head>
+    <title>SDUP Python setup</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="pictures/favicon.ico">
+</head>
+
+<body>
+<header>
+    <h1><a href="index.html">SDUP</a></h1>
+    <h2 id="subheader"><a href="index.html">Simon DERIEN's Universal Page</a></h2>
+</header>
+<section>
+<div id="not-centered-box">
+<div id="rounded-box">
+<h1>🐼 Panda3D 3D Python Games — How to Run Them</h1>
+    <p>
+        This page explains exactly how to install everything you need to run my 3D Python games built with
+        <strong>Panda3D</strong>. Whether you’re on Windows or macOS, you’ll get a clean setup, the correct commands,
+        and a simple workflow to launch the game from your terminal.
+    </p>
+
+    <hr>
+
+    <h2>📦 Requirements</h2>
+    <ul>
+        <li><strong>Python 3.10+</strong></li>
+        <li><strong>Panda3D</strong> (the 3D engine the game uses)</li>
+        <li>A terminal (Command Prompt, PowerShell, or macOS Terminal)</li>
+    </ul>
+
+    <h2>🧰 Installation Steps</h2>
+
+    <h3>🐍 Install Python</h3>
+    <p>Download Python from the official site:</p>
+    <p><strong>🖥️ Windows:</strong><br>
+        <a href="https://www.python.org/downloads/windows/" target="_blank" rel="noopener noreferrer">
+            https://www.python.org/downloads/windows/
+        </a>
+    </p>
+    <p><strong>🍎 macOS:</strong><br>
+        <a href="https://www.python.org/downloads/macos/" target="_blank" rel="noopener noreferrer">
+            https://www.python.org/downloads/macos/
+        </a>
+    </p>
+    <p>On Windows, make sure to check <strong>“Add Python to PATH”</strong> during installation.</p>
+
+    <h3>🐼 Install Panda3D</h3>
+    <p>Once Python is installed, open your terminal and run:</p>
+    <pre><code>pip install panda3d</code></pre>
+    <p>This installs the full Panda3D engine, including rendering, input, audio, and all required modules.</p>
+
+    <h3>📁 Download the Game Files</h3>
+    <p>Place the game folder anywhere you like. Inside it, you should see something like:</p>
+    <pre><code>main.py
+models/
+textures/
+scripts/</code></pre>
+    <p>Your main file will usually be <strong>main.py</strong> or <strong>game.py</strong>.</p>
+
+    <hr>
+
+    <h2>▶️ How to Run the Game</h2>
+
+    <h3>🖥️ Windows (Command Prompt or PowerShell)</h3>
+    <ol>
+        <li>Open <strong>Command Prompt</strong> or <strong>PowerShell</strong>.</li>
+        <li>Navigate to the game folder:</li>
+    </ol>
+    <pre><code>cd path\to\your\game</code></pre>
+    <p>Example:</p>
+    <pre><code>cd C:\Users\Simon\Desktop\My3DGame</code></pre>
+    <p>Then run the game:</p>
+    <pre><code>python main.py</code></pre>
+
+    <h3>🍎 macOS (Terminal)</h3>
+    <ol>
+        <li>Open <strong>Terminal</strong>.</li>
+        <li>Navigate to the game folder:</li>
+    </ol>
+    <pre><code>cd /Users/Simon/Desktop/My3DGame</code></pre>
+    <p>Then run the game:</p>
+    <pre><code>python3 main.py</code></pre>
+    <p>On macOS, Python is often accessed with <strong>python3</strong> instead of <strong>python</strong>.</p>
+
+    <hr>
+
+    <h2>🔧 Optional: Install Developer Tools</h2>
+    <p>If you want to edit or expand the game, install VS Code:</p>
+    <p>
+        💻
+        <a href="https://code.visualstudio.com/download?_exp_download=d53503e735" target="_blank" rel="noopener noreferrer">
+            Install VS Code
+        </a>
+    </p>
+
+    <hr>
+
+    <h2>🧪 Troubleshooting</h2>
+
+    <h3>❗ “ModuleNotFoundError: No module named panda3d”</h3>
+    <p>Run:</p>
+    <pre><code>pip install panda3d</code></pre>
+    <p>If you’re on macOS and using Python 3:</p>
+    <pre><code>pip3 install panda3d</code></pre>
+
+    <h3>❗ “python is not recognized”</h3>
+    <p>This is a Windows PATH issue. Reinstall Python and make sure to check:</p>
+    <p><strong>✔ “Add Python to PATH”</strong></p>
+
+    <h3>❗ Black screen or no window</h3>
+    <p>Your GPU drivers may be outdated. Update them and try again.</p>
+
+    <hr>
+
+    <h2>🎮 You’re Ready to Play</h2>
+    <p>Once everything is installed, running the game is as simple as:</p>
+    <pre><code>python main.py</code></pre>
+    <p>or on macOS:</p>
+    <pre><code>python3 main.py</code></pre>
+    <p>Your 3D Panda3D game should launch and open a window where you can play.</p>
+    <p>📝 Note: not all of my projects use main.py as its name, double check the file that you want to open and use 
+        that name instead.
+    </p>
+
+</div>
+</div>
+</section>
+
+<footer>
+    <p>© 2026 Simon DERIEN</p>
+</footer>
+
+</body>
